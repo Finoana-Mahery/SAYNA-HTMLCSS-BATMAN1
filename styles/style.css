@@ -25,7 +25,7 @@ h2{
     font-size: 12px;
 }
 .contenaire{
-    background-image:url(/image/Bathome1.png);
+    background-image:url(../image/Bathome1.png);
     max-width: 1350px;
     min-width: 1000px;
     margin:0 auto;
