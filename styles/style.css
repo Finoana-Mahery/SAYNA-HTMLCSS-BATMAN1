@@ -63,6 +63,9 @@ h2{
         cursor: pointer;
         
     }
+.navbar>a>img:hover{
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
 .contenue{
     height: inherit;
     /*background-color: blueviolet;*/
@@ -123,6 +126,9 @@ h2{
     top: 32%;
     right: 3.15%;
     gap: 20px;
+}
+.float_control>a>img:hover{
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(100deg);
 }
 /**************************************************************************/
 .bloc_2{
@@ -238,26 +244,19 @@ justify-content: space-between;
     background: linear-gradient(126deg, rgba(237,222,191,0.3) 40%, rgba(25,88,125,0.3) 110%);
     
 }
-.slide_1{
-  
-}
+
 .slide_2{
 display: none;
 }
 .slide_3{
 display: none;
 }
-.bande_annonce{
 
-}
 .flch{
     cursor: pointer;
 }
 
 /**************************************/
-.bande_annonce{
-   
-}
 
 .bande_annonce:hover{
     box-shadow: rgba(255, 255, 255, 0.416) 0px 0px 70px ;
